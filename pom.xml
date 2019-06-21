@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.zidium</groupId>
     <artifactId>log4jAdapter</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
     <name>zidiumLog4jAdapter</name>
     <description>Zidium log4j adapter</description>
@@ -27,7 +27,7 @@
         <connection>scm:git:git://github.com/Zidium/Log4jAdapter.git</connection>
         <developerConnection>scm:git:git@github.com:Zidium/Log4jAdapter.git</developerConnection>
         <url>https://github.com/Zidium/Log4jAdapter</url>
-        <tag>HEAD</tag>
+        <tag>v1.0.0</tag>
     </scm>
     <distributionManagement>
         <snapshotRepository>
