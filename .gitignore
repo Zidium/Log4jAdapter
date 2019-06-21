@@ -1,0 +1,5 @@
+.gitattributes
+release.properties
+pom.xml.releaseBackup
+/target/
+/nbproject/

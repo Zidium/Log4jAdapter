@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+    <action>
+        <actionName>CUSTOM-Release prepare</actionName>
+        <displayName>Release prepare</displayName>
+        <goals>
+            <goal>release:prepare</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-Release perform</actionName>
+        <displayName>Release perform</displayName>
+        <goals>
+            <goal>release:perform</goal>
+        </goals>
+    </action>
+</actions>

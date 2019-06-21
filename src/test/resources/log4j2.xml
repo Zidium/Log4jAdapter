@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration status="warn" monitorInterval="30" packages="net.zidium.log4jAdapter">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout charset="UTF-8" pattern="%d{dd.MM.yyyy HH:mm:ss.SSS} %-5level %logger{2} - %msg%n" />
+        </Console>
+        <ZidiumLogs name="ZidiumLogs" />
+        <ZidiumEvents name="ZidiumEvents" />
+    </Appenders>
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="ZidiumLogs" />
+            <AppenderRef ref="ZidiumEvents" level="error" />
+        </Root>
+    </Loggers>
+</Configuration>
