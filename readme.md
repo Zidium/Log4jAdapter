@@ -74,6 +74,12 @@
     IComponentControl component = ZidiumClient.getDefault().getComponentControl("...");
     LoggerToComponentMap.setDefaultComponent(component);
 
+**Важно!**
+Перед завершением приложения нужно выполнить запись всех закешированных данных:
+
+    ZidiumClient.getDefault().getEventManager().flush();
+    ZidiumClient.getDefault().getLogManager().flush()
+
 ## Использование
 
 ### Отправка ошибок
