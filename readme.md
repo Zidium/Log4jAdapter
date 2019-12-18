@@ -17,7 +17,7 @@
     <dependency>
         <groupId>net.zidium</groupId>
         <artifactId>log4jAdapter</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </dependency>
 
 Используйте самую новую доступную версию.
@@ -32,11 +32,11 @@
 
 Если вы используете развёрнутый у вас Zidium, а не облачный сервис, то укажите также адрес службы Api:
 
-    url=http://localhost:61000/
+    url=https://localhost:60001/
 
 Можно также задать все настройки программно. Для этого в самое начало вашего приложения поместите код:
 
-    IZidiumClient client = new ZidiumClient("MYACCOUNT", "7031880B-CCCD-4A05-A4DE-6AFADCD7BE6F", "http://localhost:61000/");
+    IZidiumClient client = new ZidiumClient("MYACCOUNT", "7031880B-CCCD-4A05-A4DE-6AFADCD7BE6F", "http://localhost:60001/");
     ZidiumClient.setDefault(client);
 
 ## Настройка log4j
